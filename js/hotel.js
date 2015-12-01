@@ -2,6 +2,7 @@ $(document).on('click', '.amenities.dropdown-menu li a', function() {
     $('#amenities').val($(this).html());
 }); 
 
+
 $(document).on('click', '.price.dropdown-menu li a', function() {
     $('#priceinput').val($(this).html());
 }); 
@@ -25,7 +26,7 @@ $(document).ready(function(){
 
     //When city is selected, if it is NYC(for example), then display all hotels in new york 
     //When star rating is selected, it is "__blank__", then display 
-  
+
   });
 
 
