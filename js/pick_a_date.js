@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //e.
-  $('.datepicker').pickadate();
+  $(".datepicker").pickadate();
   //$('.timepicker').pickatime();
 /*
   $('.datepicker').pickadate({
@@ -12,7 +12,7 @@ $(document).ready(function(){
     selectYears: true,
   })
 */
-})
+})  // end of document object
 
 
  
