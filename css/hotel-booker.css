@@ -1,34 +1,17 @@
 body {
   background-color: #C8C8C8;
 }
-
 h1 {
   text-align: center;
-  color: #00FFFF
+  color: black
 }
+
 h2{
   font-style: italic;
   outline-color: green;
-  color: #66CC33;
+  color: white;
 }
 
-carousel .item {
-    background:#F9F9F9;
-    border:1px solid #E0E0E0;
-    overflow:hidden;
-    margin-bottom:1em;
-    margin-top:1em;
-    padding:5px;
-}
-.carousel-inner > .item > img {
-    border: 1px solid #DDDDDD;
-    float: left;
-    margin: 0pt 3px;
-    padding: 2px;
-    height: none;
-    width:  100%;
-}
-
-.carousel-inner > .item > img:hover {
-    border: 1px solid #000000;
+header {
+  background-image: url("https://d3e7bfg0h5jt4g.cloudfront.net/images/hotel_header_desktop/830189-puente-romano-hotel-marbella-spain.jpg");
 }
