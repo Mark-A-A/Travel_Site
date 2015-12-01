@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <title>Hotel Picker</title>
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   
@@ -13,7 +15,66 @@
 
 
 <body>
-  
+
+  <!--Nav Bar by MAria -->
+  <form class="navbar-form dropdown col-md-6" role="search">
+    <select class="selectpicker" data-live-search="true" title="Search City">
+      <option>CITY</option>
+      <option>Guayaquil</option>
+      <option>Bogota</option>
+      <option>Lima</option>
+      <option>Salvador</option>
+      <option>Santiago</option>
+    </select>
+                                                
+    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+  </form>          
+   
+      <div class="">
+          <a href="#" id="moreOptions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              Advanced Search Options
+            <span class="caret"></span>
+          </a> 
+           <!-- <br> -->
+          <div class="btn btn-group2 btn-lg">             
+                <select>
+                  <option value="price">PRICE</option>                  
+                  <option value="price1">$0-$25</option>
+                  <option value="price2">$25-$50</option>
+                  <option value="price3">$50-$100</option> <option value="price4">$100-$150</option>
+                  <option value="price5">$150-$200</option>       
+                </select>
+          </div> <!-- first button group -->
+
+        <div> <!-- section2 -->
+            <div class="btn-group2">
+              <div class="btn btn-group2 btn-lg">                
+                <select>
+                  <option value="stars">STARS</option>                  
+                  <option value="star5">5 STARS</option>
+                  <option value="star4">4 STARS</option>
+                  <option value="star3">3 STARS</option>         
+                </select>
+              </div>
+
+              
+              
+              <div class="btn btn-group">
+                <button type="button" class="btn btn-default btn-sm dropdown-toggle" id="amenitites" data-toggle="dropdown">AMENITIES <span class="caret"></span></button>
+
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="small" data-value="opt1" tabindex="-1"><input type="checkbox">&nbsp;Jacuzzi</a></li>
+                  <li><a href="#" class="small" data-value="opt2" tabindex="-1"><input type="checkbox">&nbsp;Movie Package</a></li>
+                  <li><a href="#" class="small" data-value="opt3" tabindex="-1"><input type="checkbox">&nbsp;Lunch/ Dinner</a></li>
+                  <li><a href="#" class="small" data-value="opt4" tabindex="-1"><input type="checkbox">&nbsp;Sauna</a></li>
+                  <li><a href="#" class="small" data-value="opt5" tabindex="-1"><input type="checkbox">&nbsp;Gym</a></li>
+                  <li><a href="#" class="small" data-value=
+                </ul>
+              </div> <!-- btn group 3-->
+            </div> <!-- btn group 2 -->
+          </div> <!-- end of section 2-->
+      </div>
+    
 
   <div class="container-fluid">
     <div class="row"> <!-- Row -->
@@ -55,6 +116,7 @@
                 </div>
               </div>
           </div>
+>>>>>>> b5f530135ffb652b5306c468a2146331391d515d
 
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -81,6 +143,12 @@
         </p>
       </div> <!-- End of Jumbotron -->
     </div>  <!-- Row -->
+
+    <div class="row">
+       <h2>
+        <marquee behavior="scroll" direction="left"><img src="http://www.passagesofdistinction.com/wp-content/uploads/2015/01/Fotolia_29358934_Subscription_XL.jpg" width="70" height="70" >Travel at your Leisure. Anywhere. Anytime.</marquee>
+      </h2>
+    </div>
     
     <div class="row">
       <div class="col-md-6">
