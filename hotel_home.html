@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <title>Hotel Picker</title>
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/5-1.css">
-
+  
+  <link rel="stylesheet" type="text/css" href="css/default.css" id="theme_base">
+  <link rel="stylesheet" type="text/css" href="css/default.date.css" id="theme_date">
+  <link rel="stylesheet" type="text/css" href="css/default.time.css" id="theme_time">
+  <link rel="stylesheet" type="text/css" href="css/hotel-booker.css">
 </head>
 
 
 <body>
-  
+
+ 
+    
 
   <div class="container-fluid">
-    <div>
+    <div class="row-fluid" id="header"> <!-- nav bar row -->
+      
+   <header>   <h1>Hotel Booker</h1>
+
+       <h2>
+        <marquee behavior="scroll" direction="left"><img>DUDE!!! You can TOTALLY Travel at your Leisure. Anywhere. Anytime.</marquee>
+      </h2> 
+           
+    </div> </header><!-- End of nav bar row -->
+
+    
+    <div class="row"> <!-- Row for Jumbotron -->
       <div class="jumbotron">
-        <h1>Hotel Picker RBC MnM</h1>
+        
         
         
         <!-- Hotel Carousel -->
@@ -25,24 +43,50 @@
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
           </ol>
 
             <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="..." alt="...">
-                <div class="carousel-caption">
-                  ...
-                </div>
+            <div class="item active">
+              <img src="http://www.hdtimelapse.net/content/HDtimelapse.net_City/HDtimelapse.net_City_2032_pwl.jpg" alt="Vegas" width="maximum">
+              <div class="carousel-caption">
+                <h3>Quito</h3>
+                <p></p>
               </div>
-              <div class="item">
-                <img src="..." alt="...">
-                <div class="carousel-caption">
-                  ...
-                </div>
+            </div>
+            <div class="item">
+              <img src="https://wallpaperscraft.com/image/night_city_lights_buildings_skyscrapers_new_york_lower_manhattan_building_bridge_59504_3840x1200.jpg">
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>Spend some time in the Big Apple</p>
+                
               </div>
-              ...
+            </div>
+            <div class="item">
+              <img src="pictures/Los_Angeles_sunset_skyline.jpg" alt="Los Angeles">
+              <div class="carousel-caption">
+              <h3> Los Angeles</h3>
+                <p> Make your home the Hollywood Hills for a few nights</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="https://wallpaperscraft.com/image/miami_beach_buildings_sand_63145_3840x1200.jpg" alt="Los Angeles">
+              <div class="carousel-caption">
+              <h3> Miami</h3>
+                <p> Come to Miami Beach</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://images.kuoni.co.uk/73/colombia-22437413-1385544322-WideInspirationalPhoto.jpg" alt="Bogota">
+              <div class="carousel-caption">
+              <h3> Bogota</h3>
+                <p> Colombia</p>
+              </div>
+            </div>
           </div>
+
 
           <!-- Controls -->
           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -55,68 +99,92 @@
           </a>
         </div> <!-- end of hotel carousel -->
 
-        <p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Book Your Hotel</a>
-        </p>
-      </div> <!-- End of Jumbotron -->
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div> <!-- Carousel Container -->
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
+          <!-- Large modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Book Your Next Stay</button>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="..." alt="...">
-                <div class="carousel-caption">
-                  ...
-                </div>
-              </div>
-              <div class="item">
-                <img src="..." alt="...">
-                <div class="carousel-caption">
-                  ...
-                </div>
-              </div>
-              ...
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              ABCDEFG
             </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
-        </div> <!-- End of carousel Container -->
-      </div> <!--end of col -->
-    </div> <!-- end of row -->
+        </div>
+        
+      </div> <!-- End of Jumbotron -->
+    </div>  <!-- Row -->
 
-      <!-- date picker -->
-      <input type="text" class="form-control" placeholder="Text input">
-      <input class="datepicker" type="text" placeholder="Try me">
+      
+    <div class="row"> <!--Nav Bar by Maria; moved by mark -->
+      <form class="navbar-form dropdown col-lg-12" id="pick-a-city" role="search">
+       <!-- <select class="selectpicker" data-live-search="true" title="Search City">
+          <option>Pick the City</option>
+          <option>Bogota</option>
+          <option>Las Vegas</option>
+          <option>Los Angeles</option>
+          <option>Miami</option>
+          <option>New York City</option>
+          
+        </select> -->
+        <input type="text" class="form-control" placeholder="Text input">
+        
+        <div class="btn btn-group2 btn-lg" id="pick-a-price">             
+          <select>
+            <option value="price">PRICE</option>                  
+            <option value="price1">$0-$25</option>
+            <option value="price2">$25-$50</option>
+            <option value="price3">$50-$100</option> <option value="price4">$100-$150</option>
+            <option value="price5">$150-$200</option>       
+          </select>
+        </div> <!-- first button group -->                                           
+        
+        <div class="btn btn-group2 btn-lg" id="rating-stars">                
+          <select>
+            <option value="stars">STARS</option>                  
+            <option value="star5">5 STARS</option>
+            <option value="star4">4 STARS</option>
+            <option value="star3">3 STARS</option>         
+          </select>
+        </div>
+
+
+        <div class="btn btn-group">
+          <button type="button" class="btn btn-default btn-sm dropdown-toggle" id="amenitites" data-toggle="dropdown">AMENITIES <span class="caret"></span>
+          </button>
+
+          <ul class="dropdown-menu">
+            <li><a href="#" class="small" data-value="opt1" tabindex="-1"><input type="checkbox">&nbsp;Jacuzzi</a></li>
+            <li><a href="#" class="small" data-value="opt2" tabindex="-1"><input type="checkbox">&nbsp;Movie Package</a></li>
+            <li><a href="#" class="small" data-value="opt3" tabindex="-1"><input type="checkbox">&nbsp;Lunch/ Dinner</a></li>
+            <li><a href="#" class="small" data-value="opt4" tabindex="-1"><input type="checkbox">&nbsp;Sauna</a></li>
+            <li><a href="#" class="small" data-value="opt5" tabindex="-1"><input type="checkbox">&nbsp;Gym</a></li>
+          </ul>
+        </div> 
+
+      
+        <!-- date picker -->
+        <input class="datepicker" type="text" placeholder="Check In Date">
+        <input class="datepicker" type="text" placeholder="Check Out Date">
+
+        <button type="submit" class="btn btn-default" id="search"><span class="glyphicon glyphicon-search"></span></button>
+      </form> 
+
+
+    </div>
+  </div> <!-- End of container -->     
       
       <!-- Scripts -->
       
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
       <script type="text/javascript" src="js/legacy.js"></script>
       <script type="text/javascript" src="js/picker.js"></script>
       <script type="text/javascript" src="js/picker.date.js"></script>
       <script type="text/javascript" src="js/picker.time.js"></script>
       <script type="text/javascript" src="js/pick_a_date.js"></script>
-    </div>  
-  </div>      
+      <script type="text/javascript" src="js/hotel.js"></script>
+ 
+  
 </body>
 </html>

@@ -1,0 +1,17 @@
+body {
+  background-color: #C8C8C8;
+}
+h1 {
+  text-align: center;
+  color: black
+}
+
+h2{
+  font-style: italic;
+  outline-color: green;
+  color: white;
+}
+
+header {
+  background-image: url("https://d3e7bfg0h5jt4g.cloudfront.net/images/hotel_header_desktop/830189-puente-romano-hotel-marbella-spain.jpg");
+}
