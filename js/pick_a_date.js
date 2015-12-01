@@ -1,8 +1,8 @@
 $(document).ready(function(){
   //e.
-  //$('.datepicker').pickadate();
+  $('.datepicker').pickadate();
   //$('.timepicker').pickatime();
-
+/*
   $('.datepicker').pickadate({
     labelMonthNext: 'Go to the next month',
     labelMonthPrev: 'Go to the previous month',
@@ -11,7 +11,7 @@ $(document).ready(function(){
     selectMonths: true,
     selectYears: true,
   })
-
+*/
 })
 
 
