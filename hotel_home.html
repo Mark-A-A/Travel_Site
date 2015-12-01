@@ -99,43 +99,35 @@
           </a>
         </div> <!-- end of hotel carousel -->
 
-        <p>
           <!-- Large modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Book Your Next Stay</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Book Your Next Stay</button>
 
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      ABCDEFG
-    </div>
-  </div>
-</div>
-        </p>
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              ABCDEFG
+            </div>
+          </div>
+        </div>
+        
       </div> <!-- End of Jumbotron -->
     </div>  <!-- Row -->
 
-
-    
-    <div class="row">
-      <div class="col-md-6">
-        <p>Add dropdown menu here and date picker</p>
-        
-      </div> <!-- end of col -->
-    </div> <!-- end of row -->
-
       
     <div class="row"> <!--Nav Bar by Maria; moved by mark -->
-      <form class="navbar-form dropdown col-lg-12" role="search">
-        <select class="selectpicker" data-live-search="true" title="Search City">
-          <option>CITY</option>
-          <option>Guayaquil</option>
+      <form class="navbar-form dropdown col-lg-12" id="pick-a-city" role="search">
+       <!-- <select class="selectpicker" data-live-search="true" title="Search City">
+          <option>Pick the City</option>
           <option>Bogota</option>
-          <option>Lima</option>
-          <option>Salvador</option>
-          <option>Santiago</option>
-        </select>
+          <option>Las Vegas</option>
+          <option>Los Angeles</option>
+          <option>Miami</option>
+          <option>New York City</option>
+          
+        </select> -->
+        <input type="text" class="form-control" placeholder="Text input">
         
-        <div class="btn btn-group2 btn-lg">             
+        <div class="btn btn-group2 btn-lg" id="pick-a-price">             
           <select>
             <option value="price">PRICE</option>                  
             <option value="price1">$0-$25</option>
@@ -145,7 +137,7 @@
           </select>
         </div> <!-- first button group -->                                           
         
-        <div class="btn btn-group2 btn-lg">                
+        <div class="btn btn-group2 btn-lg" id="rating-stars">                
           <select>
             <option value="stars">STARS</option>                  
             <option value="star5">5 STARS</option>
@@ -173,7 +165,7 @@
         <input class="datepicker" type="text" placeholder="Check In Date">
         <input class="datepicker" type="text" placeholder="Check Out Date">
 
-        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+        <button type="submit" class="btn btn-default" id="search"><span class="glyphicon glyphicon-search"></span></button>
       </form> 
 
 
@@ -191,6 +183,7 @@
       <script type="text/javascript" src="js/picker.date.js"></script>
       <script type="text/javascript" src="js/picker.time.js"></script>
       <script type="text/javascript" src="js/pick_a_date.js"></script>
+      <script type="text/javascript" src="js/hotel.js"></script>
  
   
 </body>

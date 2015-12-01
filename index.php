@@ -1,1 +1,1 @@
-Add link for heroku
+<?php include_once("hotel_home.html"); ?>
