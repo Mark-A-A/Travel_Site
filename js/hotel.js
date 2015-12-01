@@ -25,6 +25,7 @@ $(document).ready(function(){
 
     //When city is selected, if it is NYC(for example), then display all hotels in new york 
     //When star rating is selected, it is "__blank__", then display 
+  
   });
 
 
