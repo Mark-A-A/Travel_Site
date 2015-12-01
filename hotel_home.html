@@ -20,69 +20,20 @@
     
 
   <div class="container-fluid">
-    <div class="row"> <!-- nav bar row -->
+    <div class="row-fluid"> <!-- nav bar row -->
       
-       <!--Nav Bar by MAria -->
-      <form class="navbar-form dropdown" role="search">
-        <select class="selectpicker" data-live-search="true" title="Search City">
-          <option>CITY</option>
-          <option>Guayaquil</option>
-          <option>Bogota</option>
-          <option>Lima</option>
-          <option>Salvador</option>
-          <option>Santiago</option>
-        </select>
-                                                    
-        <button type="submit" class="btn default"><span class="glyphicon glyphicon-search"></span></button>
-      </form>          
-       
-      <div class="">
-        <a href="#" id="moreOptions" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-          Advanced Search Options
-          <span class="caret"></span>
-        </a> 
-        <!-- <br> -->
-        <div class="btn btn-group2 btn-lg">             
-          <select>
-            <option value="price">PRICE</option>                  
-            <option value="price1">$0-$25</option>
-            <option value="price2">$25-$50</option>
-            <option value="price3">$50-$100</option> <option value="price4">$100-$150</option>
-            <option value="price5">$150-$200</option>       
-          </select>
-        </div> <!-- first button group -->
-
-        <div> <!-- section2 -->
-          <div class="btn-group2">
-            <div class="btn btn-group2 btn-lg">                
-              <select>
-                <option value="stars">STARS</option>                  
-                <option value="star5">5 STARS</option>
-                <option value="star4">4 STARS</option>
-                <option value="star3">3 STARS</option>         
-              </select>
-            </div>
-
-            <div class="btn btn-group">
-              <button type="button" class="btn btn-default btn-sm dropdown-toggle" id="amenitites" data-toggle="dropdown">AMENITIES <span class="caret"></span>
-              </button>
-
-              <ul class="dropdown-menu">
-                <li><a href="#" class="small" data-value="opt1" tabindex="-1"><input type="checkbox">&nbsp;Jacuzzi</a></li>
-                <li><a href="#" class="small" data-value="opt2" tabindex="-1"><input type="checkbox">&nbsp;Movie Package</a></li>
-                <li><a href="#" class="small" data-value="opt3" tabindex="-1"><input type="checkbox">&nbsp;Lunch/ Dinner</a></li>
-                <li><a href="#" class="small" data-value="opt4" tabindex="-1"><input type="checkbox">&nbsp;Sauna</a></li>
-                <li><a href="#" class="small" data-value="opt5" tabindex="-1"><input type="checkbox">&nbsp;Gym</a></li>
-              </ul>
-            </div> <!-- btn group 3-->
-          </div> <!-- btn group 2 -->
-        </div> <!-- end of section 2-->
-      </div>
+       <h1>Hotel Booker</h1>
+      
+       <h2>
+        <marquee behavior="scroll" direction="left"><img src="http://www.passagesofdistinction.com/wp-content/uploads/2015/01/Fotolia_29358934_Subscription_XL.jpg" width="70" height="70" >Travel at your Leisure. Anywhere. Anytime.</marquee>
+      </h2>
+           
     </div> <!-- End of nav bar row -->
+
     
     <div class="row"> <!-- Row for Jumbotron -->
       <div class="jumbotron">
-        <h1>Hotel Booker</h1>
+        
         
         
         <!-- Hotel Carousel -->
@@ -92,32 +43,48 @@
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
           </ol>
 
             <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="pictures/las-vegas-strip.jpg" alt="Las Vegas Strip">
-                <div class="carousel-caption">
-                  <h3>Las Vegas</h3>
-                  <p>What happens here stays here</p>
-                </div>
+            <div class="item active">
+              <img src="pictures/las-vegas-strip.jpg" alt="Las Vegas Strip">
+              <div class="carousel-caption">
+                <h3>Las Vegas</h3>
+                <p>What happens here stays here</p>
               </div>
-              <div class="item">
-                <img src="pictures/NY_Times_Square.jpg" alt="New York City">
-                <div class="carousel-caption">
-                  <h3>Times Sq</h3>
-                  <p>Spend some time in the Big Apple</p>
-                  
-                </div>
+            </div>
+            <div class="item">
+              <img src="pictures/NY_Times_Square.jpg" alt="New York City">
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>Spend some time in the Big Apple</p>
+                
               </div>
-              <div class="item">
-                <img src="pictures/Los_Angeles_sunset_skyline.jpg" alt="Los Angeles" >
-                <div class="carousel-caption">
-                <h3> Los Angeles</h3>
-                  <p> Make your home the Hollywood Hills for a few nights</p>
-                </div>
+            </div>
+            <div class="item">
+              <img src="pictures/Los_Angeles_sunset_skyline.jpg" alt="Los Angeles">
+              <div class="carousel-caption">
+              <h3> Los Angeles</h3>
+                <p> Make your home the Hollywood Hills for a few nights</p>
               </div>
+            </div>
+            <div class="item">
+              <img src="pictures/Los_Angeles_sunset_skyline.jpg" alt="Los Angeles">
+              <div class="carousel-caption">
+              <h3> Miami</h3>
+                <p> Make your home the Hollywood Hills for a few nights</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pictures/Los_Angeles_sunset_skyline.jpg" alt="Los Angeles">
+              <div class="carousel-caption">
+              <h3> Bogota</h3>
+                <p> Make your home the Hollywood Hills for a few nights</p>
+              </div>
+            </div>
           </div>
 
 
@@ -147,35 +114,69 @@
       </div> <!-- End of Jumbotron -->
     </div>  <!-- Row -->
 
-    <div class="row">
-       <h2>
-        <marquee behavior="scroll" direction="left"><img src="http://www.passagesofdistinction.com/wp-content/uploads/2015/01/Fotolia_29358934_Subscription_XL.jpg" width="70" height="70" >Travel at your Leisure. Anywhere. Anytime.</marquee>
-      </h2>
-    </div>
+
     
     <div class="row">
       <div class="col-md-6">
         <p>Add dropdown menu here and date picker</p>
-        <div class="dropdown">
-          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Dropdown
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </div> <!-- dropdown -->
+        
       </div> <!-- end of col -->
     </div> <!-- end of row -->
 
-      <!-- date picker -->
-    <div class="row">
-      <input class="datepicker" type="text" placeholder="Check In Date">
-      <input class="datepicker" type="text" placeholder="Check Out Date">
+      
+    <div class="row"> <!--Nav Bar by Maria; moved by mark -->
+      <form class="navbar-form dropdown col-lg-12" role="search">
+        <select class="selectpicker" data-live-search="true" title="Search City">
+          <option>CITY</option>
+          <option>Guayaquil</option>
+          <option>Bogota</option>
+          <option>Lima</option>
+          <option>Salvador</option>
+          <option>Santiago</option>
+        </select>
+        
+        <div class="btn btn-group2 btn-lg">             
+          <select>
+            <option value="price">PRICE</option>                  
+            <option value="price1">$0-$25</option>
+            <option value="price2">$25-$50</option>
+            <option value="price3">$50-$100</option> <option value="price4">$100-$150</option>
+            <option value="price5">$150-$200</option>       
+          </select>
+        </div> <!-- first button group -->                                           
+        
+        <div class="btn btn-group2 btn-lg">                
+          <select>
+            <option value="stars">STARS</option>                  
+            <option value="star5">5 STARS</option>
+            <option value="star4">4 STARS</option>
+            <option value="star3">3 STARS</option>         
+          </select>
+        </div>
+
+
+        <div class="btn btn-group">
+          <button type="button" class="btn btn-default btn-sm dropdown-toggle" id="amenitites" data-toggle="dropdown">AMENITIES <span class="caret"></span>
+          </button>
+
+          <ul class="dropdown-menu">
+            <li><a href="#" class="small" data-value="opt1" tabindex="-1"><input type="checkbox">&nbsp;Jacuzzi</a></li>
+            <li><a href="#" class="small" data-value="opt2" tabindex="-1"><input type="checkbox">&nbsp;Movie Package</a></li>
+            <li><a href="#" class="small" data-value="opt3" tabindex="-1"><input type="checkbox">&nbsp;Lunch/ Dinner</a></li>
+            <li><a href="#" class="small" data-value="opt4" tabindex="-1"><input type="checkbox">&nbsp;Sauna</a></li>
+            <li><a href="#" class="small" data-value="opt5" tabindex="-1"><input type="checkbox">&nbsp;Gym</a></li>
+          </ul>
+        </div> 
+
+      
+        <!-- date picker -->
+        <input class="datepicker" type="text" placeholder="Check In Date">
+        <input class="datepicker" type="text" placeholder="Check Out Date">
+
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+      </form> 
+
+
     </div>
   </div> <!-- End of container -->     
       
