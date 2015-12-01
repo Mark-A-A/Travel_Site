@@ -1,1 +1,13 @@
+body {
+  background-color: #C8C8C8;
+}
 
+h1 {
+  text-align: center;
+  color: #00FFFF
+}
+h2{
+  font-style: italic;
+  outline-color: green;
+  color: #66CC33;
+}
